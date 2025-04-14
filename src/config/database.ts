@@ -1,8 +1,8 @@
 import { DataSource } from 'typeorm'
-import { Registration } from '../entities/Registration'
-import { RegistrationPeriod } from '../entities/RegistrationPeriod'
+import { Registration } from '../entities/registration'
+import { RegistrationPeriod } from '../entities/registrationPeriod'
 import { RefreshToken } from '../entities/refreshToken'
-import { Course } from '../entities/Course'
+import { Course } from '../entities/course'
 import { User } from '../entities/user'
 
 export const AppDataSource = new DataSource({
